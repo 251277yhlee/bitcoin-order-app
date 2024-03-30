@@ -5,7 +5,7 @@ on:
       - githubcicd
 jobs:
   ci:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     strategy:
       matrix:
